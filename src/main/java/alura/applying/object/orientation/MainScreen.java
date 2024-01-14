@@ -12,5 +12,23 @@ public class MainScreen {
         myMusic.evaluate(5.0);
         double mediaReviews = myMusic.catchMedia();
         System.out.println("Média das avaliações: " + mediaReviews);
+        System.out.println("--------------");
+        Car mycar = new Car();
+        mycar.model = "Gol";
+        mycar.year = 2023;
+        mycar.color = "Preto";
+        mycar.displaysTechnicalSheet();
+        System.out.println("Idade do carro: " + mycar.calculateAge() + " anos");
+        System.out.println("--------------");
+        Film favorite = new Film();
+        favorite.setName("The Matrix");
+        favorite.setReleaseYear(1999);
+        favorite.setDurationInMinutes(135);
+        favorite.setIncludedInThePlan(true);
+        favorite.displaysTechnicalSheet();
+        favorite.evaluate(9);
+        favorite.evaluate(8);
+        favorite.evaluate(9);
+        System.out.println("dia de avaliações do filme:" + favorite.catchMedia());
     }
 }
