@@ -1,4 +1,4 @@
-package org.alura.java;
+package org.alura.applying.object.orientation;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
