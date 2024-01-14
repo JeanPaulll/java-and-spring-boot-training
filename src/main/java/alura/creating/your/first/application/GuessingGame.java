@@ -1,4 +1,4 @@
-package alura.applying.object.orientation;
+package alura.creating.your.first.application;
 
 import java.util.Random;
 import java.util.Scanner;

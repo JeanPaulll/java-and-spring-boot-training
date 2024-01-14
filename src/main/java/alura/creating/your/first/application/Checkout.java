@@ -1,4 +1,4 @@
-package alura.applying.object.orientation;
+package alura.creating.your.first.application;
 
 public class Checkout {
     public static void main(String[] args) {
