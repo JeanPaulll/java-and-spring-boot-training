@@ -1,4 +1,4 @@
-package org.alura.applying.object.orientation;
+package alura.applying.object.orientation;
 
 import java.util.Scanner;
 
