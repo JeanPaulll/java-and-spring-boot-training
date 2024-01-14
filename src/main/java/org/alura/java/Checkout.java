@@ -1,4 +1,4 @@
-package org.example;
+package org.alura.java;
 
 public class Checkout {
     public static void main(String[] args) {

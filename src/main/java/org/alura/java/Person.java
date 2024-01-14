@@ -1,4 +1,4 @@
-package org.example;
+package org.alura.java;
 
 import lombok.*;
 
