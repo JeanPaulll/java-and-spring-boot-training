@@ -18,7 +18,7 @@ public class Music {
         numAvaluations++;
     }
 
-    double pegaMedia() {
+    double catchMedia() {
         return sumDasEvaluations / numAvaluations;
     }
 }

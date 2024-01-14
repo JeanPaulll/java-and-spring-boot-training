@@ -10,7 +10,7 @@ public class MainScreen {
         myMusic.evaluate(4.5);
         myMusic.evaluate(3.8);
         myMusic.evaluate(5.0);
-        double mediaReviews = myMusic.pegaMedia();
+        double mediaReviews = myMusic.catchMedia();
         System.out.println("Média das avaliações: " + mediaReviews);
     }
 }

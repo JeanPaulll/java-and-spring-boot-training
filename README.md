@@ -1,8 +1,14 @@
-### JAVA: creating your first application
+### JAVA: Java and Spring Boot training
+### Certificates
 
+#### Java: creating your first application
 https://cursos.alura.com.br/user/jeansimoes/course/java-criando-primeira-aplicacao/certificate
 
-<h3 align="center">Alura course material, creating your first application</h3>
+
+#### Java: applying Object Orientation
+https://cursos.alura.com.br/user/jeansimoes/course/java-aplicando-orientacao-objetos/certificate
+
+<h3 align="center">Alura course material, java and Spring Boot training </h3>
 
 [![GitHub top language](https://img.shields.io/github/languages/top/JeanPaulll/java-creating-first-application#readme.svg)]()
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/JeanPaulll/java-creating-first-application.svg)]()
@@ -14,5 +20,8 @@ https://cursos.alura.com.br/user/jeansimoes/course/java-criando-primeira-aplicac
 
 ## Links
 
-[Alura](https://www.alura.com.br/curso-online-java-criando-primeira-aplicacao)
+[Java: creating your first application](https://www.alura.com.br/curso-online-java-criando-primeira-aplicacao)
+
+[Java: applying Object Orientation](https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos)
+
 [Article](https://www.alura.com.br/conteudo/java-criando-primeira-aplicacao)
