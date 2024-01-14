@@ -1,11 +1,13 @@
 ### JAVA: Java and Spring Boot training
+
 ### Certificates
 
 #### Java: creating your first application
+
 https://cursos.alura.com.br/user/jeansimoes/course/java-criando-primeira-aplicacao/certificate
 
-
 #### Java: applying Object Orientation
+
 https://cursos.alura.com.br/user/jeansimoes/course/java-aplicando-orientacao-objetos/certificate
 
 <h3 align="center">Alura course material, java and Spring Boot training </h3>
