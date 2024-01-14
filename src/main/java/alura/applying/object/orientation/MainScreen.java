@@ -1,5 +1,9 @@
 package alura.applying.object.orientation;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class MainScreen {
     public static void main(String[] args) {
         Music myMusic = new Music();
@@ -12,23 +16,57 @@ public class MainScreen {
         myMusic.evaluate(5.0);
         double mediaReviews = myMusic.catchMedia();
         System.out.println("Média das avaliações: " + mediaReviews);
-        System.out.println("--------------");
+
         Car mycar = new Car();
         mycar.model = "Gol";
         mycar.year = 2023;
         mycar.color = "Preto";
         mycar.displaysTechnicalSheet();
         System.out.println("Idade do carro: " + mycar.calculateAge() + " anos");
-        System.out.println("--------------");
-        Film favorite = new Film();
-        favorite.setName("The Matrix");
-        favorite.setReleaseYear(1999);
-        favorite.setDurationInMinutes(135);
-        favorite.setIncludedInThePlan(true);
-        favorite.displaysTechnicalSheet();
-        favorite.evaluate(9);
-        favorite.evaluate(8);
-        favorite.evaluate(9);
-        System.out.println("dia de avaliações do filme:" + favorite.catchMedia());
+
+        List<Integer> numbers = Arrays.asList(1, 2, 3);
+        for (Integer number : numbers) {
+            System.out.println(number);
+        }
+
+        Movie theMatrix = new Movie();
+        theMatrix.setName("The Matrix");
+        theMatrix.setReleaseYear(1999);
+        theMatrix.setDurationInMinutes(135);
+        theMatrix.setIncludedInThePlan(true);
+        theMatrix.displaysTechnicalSheet();
+        theMatrix.evaluate(9);
+        theMatrix.evaluate(8);
+        theMatrix.evaluate(9);
+        System.out.println("Avaliações do filme:" + theMatrix.catchMedia());
+
+        Movie dogVille = new Movie();
+        dogVille.setName("Dog Ville");
+        dogVille.setReleaseYear(2003);
+        dogVille.setDurationInMinutes(200);
+        dogVille.setIncludedInThePlan(false);
+        dogVille.displaysTechnicalSheet();
+        dogVille.evaluate(4);
+        dogVille.evaluate(7);
+        dogVille.evaluate(7);
+        System.out.println("Avaliações do filme:" + dogVille.catchMedia());
+
+        ArrayList<Movie> movies = new ArrayList<>();
+        movies.add(theMatrix);
+        movies.add(dogVille);
+        System.out.println("-------------");
+
+        // ForEach
+        for (Movie movie : movies) {
+            System.out.println(movie.getName());
+        }
+        System.out.println("Quantidade Filmes: " + movies.stream().count());
+
+        // For
+        for (int i = 0; i <= movies.size() - 1; i++) {
+            System.out.println(movies.get(i).getName());
+        }
+
+        movies.stream().forEach((Movie movie) -> System.out.println(movie.getName()));
     }
 }

@@ -1,6 +1,6 @@
 package alura.applying.object.orientation;
 
-public class Film {
+public class Movie {
     private String name;
     private int releaseYear;
     private int durationInMinutes;
